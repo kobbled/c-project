@@ -1,0 +1,6 @@
+.vscode/
+*.o
+*.dblite
+*.a
+myprogram
+test_foo
