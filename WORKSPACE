@@ -7,3 +7,9 @@ git_repository(
     remote = "https://github.com/google/googletest",
     # tag = "release-1.13.0",
 )
+
+new_local_repository(
+    name = "stumpless",
+    path = "/usr/local/lib",
+    build_file = "deps/stumpless.BUILD",
+)
