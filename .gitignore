@@ -12,3 +12,4 @@ test_foo
 /bazel-template
 /bazel-*
 *.md2
+logs/
